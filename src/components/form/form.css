@@ -1,0 +1,63 @@
+.formSec {
+  width: 100%;
+  background-image: url(../assets/register-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px;
+}
+.formSec .left {
+  margin-bottom: 50px;
+}
+.formSec .left h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+.formSec .left h2 span {
+  color: var(--color-primary);
+}
+.formSec .left h4 {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: white;
+}
+.formSec .left p {
+  color: var(--color-gray);
+  font-size: 18px;
+}
+.formSec .right form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formSec .right form input {
+  outline: none;
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+.formSec .right form .butt {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+.formSec .right form button {
+  padding: 10px 60px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.formSec .right form button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}

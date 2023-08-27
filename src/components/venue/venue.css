@@ -1,0 +1,21 @@
+.venueSec {
+  width: 100%;
+  background-image: url(../assets/venue-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0px;
+}
+.venueSec .content h2 {
+  color: var(--color-primary);
+  margin-bottom: 20px;
+}
+.venueSec .content p {
+  color: var(--color-gray);
+  font-size: 18px;
+}
+.venueSec .content span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}

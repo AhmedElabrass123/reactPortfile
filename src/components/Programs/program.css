@@ -1,0 +1,50 @@
+.programsSec .links {
+  border-bottom: 2px solid var(--color-gray);
+  padding-bottom: 20px;
+}
+.programsSec .links span {
+  margin-right: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 22px;
+}
+.programs {
+  display: flex;
+  align-items: center;
+}
+.programs .img {
+  margin-right: 20px;
+}
+.programs .img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.programs .location {
+}
+.programs .location span {
+  display: inline-block;
+  margin-right: 30px;
+  color: var(--color-gray);
+}
+.programs .location span strong {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.programs .theJob {
+  color: var(--color-gray);
+  text-transform: capitalize;
+  margin-top: 5px;
+}
+.programs .theName {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-gray);
+  margin-bottom: 10px;
+}
+.programs p {
+  color: var(--color-gray);
+  font-size: 20px;
+}

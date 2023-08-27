@@ -1,0 +1,8 @@
+.conference .left h4 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.conference .left p {
+  color: var(--color-gray);
+  font-size: 18px;
+}

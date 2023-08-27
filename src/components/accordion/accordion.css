@@ -1,0 +1,32 @@
+.accord {
+  width: 100%;
+  border-radius: 4px;
+  transition: all 2s ease;
+  box-shadow: 1px -1px 2px 1px rgb(0, 0, 0, 0.3);
+}
+.accord .title {
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  color: rgb(86, 85, 85);
+}
+.accord .title .plus {
+  cursor: pointer;
+}
+.accord p {
+  color: var(--color-gray);
+  font-size: 18px;
+  padding: 0px 20px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.accord p.show {
+  max-height: 999px;
+  overflow: auto;
+  /* transition: all 2s ease; */
+}

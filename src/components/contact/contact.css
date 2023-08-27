@@ -1,0 +1,66 @@
+.messageSec {
+  width: 100%;
+  background-image: url(../assets/contact-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.messageSec .right form {
+  border-radius: 10px;
+  padding: 25px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.messageSec .right form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  outline: none;
+  border: 2px solid rgba(128, 128, 128, 0.17);
+  border-radius: 10px;
+}
+.messageSec .left h2,
+.messageSec .right form h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.messageSec .left h2 span,
+.messageSec .right form h2 span {
+  color: var(--color-primary);
+}
+.messageSec .left p {
+  color: var(--color-gray);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.messageSec .right form .butt,
+.messageSec .right form .tit {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+.messageSec .left button,
+.messageSec .right form button {
+  padding: 10px 60px;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 30px;
+  outline: none;
+}
+.messageSec .left button a,
+.messageSec .right form button a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.messageSec .right form button {
+  background-color: var(--color-darkgray);
+}
+.messageSec .right form button a {
+  font-weight: 600;
+}

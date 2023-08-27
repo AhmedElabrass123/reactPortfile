@@ -1,13 +1,52 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #f2545f;
+  border-radius: 6px;
+}
+:root {
+  --color-primary: #f2545f;
+  --color-secondary: #090707;
+  --color-gray: #707070;
+  --color-darkgray: #222;
+}
+section {
+  width: 100%;
+  padding: 40px 0px;
+  margin-bottom: 60px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.overviewSec {
+  background-color: var(--color-darkgray);
+}
+/* =====================for All============== */
+.head {
+  /* width: 100%; */
+  text-align: center;
+  margin-bottom: 50px;
+}
+.head h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.head h2 span {
+  color: var(--color-primary);
+}
+.head p {
+  font-size: 20px;
+  color: gray;
+}
+/* =====================for All============== */
+
+.sponserSec img {
+  width: 100%;
 }

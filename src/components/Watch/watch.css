@@ -1,0 +1,10 @@
+.watchSec .left h2 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: var(--color-gray);
+}
+.watchSec .left p {
+  color: var(--color-gray);
+  font-size: 22px;
+  margin-bottom: 30px;
+}
